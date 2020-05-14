@@ -21,8 +21,7 @@
 </tr>
 </table>
 <hr>
-<h2>-then run project with <a href="https://pypi.org/project/torn/">torn cli</a> :</h2>
-<h1>#command: [ torn run ] </h1>
+<h2>run project with <a href="https://pypi.org/project/torn/">torn cli</a> :</h2><h1>#command: [ torn run ] </h1>
 
   
   
