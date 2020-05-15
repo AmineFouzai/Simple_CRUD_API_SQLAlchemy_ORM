@@ -26,12 +26,15 @@
 <hr>
 <img src="https://github.com/MedAmineFouzai/Simple_CRUD_API_SQLAlchemy_ORM/blob/master/Captures/sqla_logo.png">
 <br>
-<p><a href="https://pypi.org/project/SQLAlchemy/"> SQLAlchemy</a> is an open-source SQL toolkit and object-relational mapper for the Python programming language</p>
+<h3><a href="https://pypi.org/project/SQLAlchemy/"> SQLAlchemy</a> is an open-source SQL toolkit and object-relational mapper for the Python programming language</h3>
 <br>
+<hr>
 <h1>#Connecting To A Database:</h1>
-<p>change uri to the suited database (postgresql,oracl,mysql,...) in models/post.py/</p>
-<h2>ex:[mysql+pymysql://root:@localhost/dbname]</h2>
+<h3>change uri to the suited database (postgresql,oracl,mysql,...) in models/post.py/</h3>
+<h3>ex:[mysql+pymysql://root:@localhost/dbname]</h3>
+<br>
 <img src="https://github.com/MedAmineFouzai/Simple_CRUD_API_SQLAlchemy_ORM/blob/master/Captures/Capture.PNG">
+<hr>
 <h1>#Defining Object Data:</h1>
 <p>change the Columns and there data types based on your object fields  </p>
 <h2>ex:</h2>
