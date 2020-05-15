@@ -30,13 +30,14 @@
 <br>
 <hr>
 <h1>#Connecting To A Database:</h1>
-<h3>change uri to the suited database (postgresql,oracl,mysql,...) in <a href="https://github.com/MedAmineFouzai/Simple_CRUD_API_SQLAlchemy_ORM/blob/master/models/post.py" models/post.py </a></h3>
+<h3>change uri to the suited database (postgresql,oracl,mysql,...) in<a href="https://github.com/MedAmineFouzai/Simple_CRUD_API_SQLAlchemy_ORM/blob/master/models/post.py" > models/post.py </a>
+ </h3> 
 <h3>ex:[mysql+pymysql://root:@localhost/dbname]</h3>
 <br>
 <img src="https://github.com/MedAmineFouzai/Simple_CRUD_API_SQLAlchemy_ORM/blob/master/Captures/Capture.PNG">
 <hr>
 <h1>#Defining Object Data:</h1>
-<p>change the Columns and there data types based on your object fields  </p>
+<h3>change the Columns and there data types based on your object fields  </h3>
 <h2>ex:</h2>
 <img src="https://github.com/MedAmineFouzai/Simple_CRUD_API_SQLAlchemy_ORM/blob/master/Captures/Capture2.PNG">
 
