@@ -7,7 +7,7 @@
 <td> 1)  git clone https://github.com/MedAmineFouzai/Simple_CRUD_API_SQLAlchemy_ORM </td>
 </tr>
 <tr>
-<td> 2) cd Simple_CRUD_API_SQLITE3</td>
+<td> 2) cd Simple_CRUD_API_SQLAlchemy_ORM</td>
 </tr>
 <tr>
 <td> 3) pip install pipenv</td>
