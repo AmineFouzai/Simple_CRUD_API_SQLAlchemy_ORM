@@ -41,8 +41,13 @@ change uri to the suited database (postgresql,oracl,mysql,...) in
 ## ex:[mysql+pymysql://root:@localhost/dbname]
 
 
-<img src="https://github.com/MedAmineFouzai/Simple_CRUD_API_SQLAlchemy_ORM/blob/master/Captures/Capture.PNG">
+```python
+DB_NAME="MyDatabaseName"
+engine=create_engine('mysql+pymysql://root:@localhost/{}'.format(DB_NAME),echo=False)
+Base=declarative_base()
+session=Session(bind=engine)
 
+```
 ----------------------------------------------
 
 # Defining Object Data:
@@ -50,7 +55,16 @@ change uri to the suited database (postgresql,oracl,mysql,...) in
 change the Columns and there data types based on your object fields
 
 ## ex:
-<img src="https://github.com/MedAmineFouzai/Simple_CRUD_API_SQLAlchemy_ORM/blob/master/Captures/Capture2.PNG">
 
+ ```python
+ class post(Base):
  
+    __tablename__='posts'
+    id=Column(Integer,primary_key=True)
+    title=Column(String(50))
+    body=Column(String(50))
+    
+    def __repr__(self):
+        return "<Post(id={},title={},body={}>".format(self.id,self.title,self.body)
+ ```
   
