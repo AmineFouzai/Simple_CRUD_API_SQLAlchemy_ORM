@@ -38,7 +38,7 @@
 change uri to the suited database (postgresql,oracl,mysql,...) in
 [models/post.py](https://github.com/MedAmineFouzai/Simple_CRUD_API_SQLAlchemy_ORM/blob/master/models/post.py)
 
-## ex:[mysql+pymysql://root:@localhost/dbname]
+    ex:[mysql+pymysql://root:@localhost/dbname]
 
 
 ```python
